@@ -1,5 +1,6 @@
 "use client"
 import { useState, useRef } from "react";
+import { MenuButton } from "@/components/menuButton"
 
 export default function Home() {
   const [showLoop, setShowLoop] = useState(false);
@@ -40,6 +41,12 @@ export default function Home() {
         loop
         preload="auto"
       />
+
+
+      <MenuButton label="SKILL" className="fixed z-10 top-1/2 left-1/2 text-5xl text-white" />
+
+
     </div>
+
   );
 }
