@@ -43,7 +43,16 @@ export default function Home() {
       />
 
 
-      <MenuButton label="SKILL" className="fixed z-10 top-1/2 left-1/2 text-[4vw] text-white" />
+      <MenuButton label="SKILL" 
+      className="fixed text-[4vw] text-white " 
+      style={{
+        left: "42.1%",
+        top: "29.6%",
+        fontSize: "clamp(2rem, 4vw, 6rem)",
+      }}
+      pinkClassName=""
+
+      />
 
 
     </div>
