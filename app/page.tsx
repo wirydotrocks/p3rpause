@@ -43,7 +43,7 @@ export default function Home() {
       />
 
 
-      <MenuButton label="SKILL" className="fixed z-10 top-1/2 left-1/2 text-5xl text-white" />
+      <MenuButton label="SKILL" className="fixed z-10 top-1/2 left-1/2 text-[4vw] text-white" />
 
 
     </div>
